@@ -1,12 +1,15 @@
-public class DragonBane implements IPower{
-    public float increasePower(){
+public class DragonBane {
+    /*
+    public float increasePowerMagic(){
         return 0.2f;
     }
-    public float decreasePower(){
+    public float increasePowerHealth(){
         return 0.1f;
     }
 
-    public int increaseWeight(){
+    public int increasePowerStamina(){
         return 10;
     }
-}
+
+*/}
+

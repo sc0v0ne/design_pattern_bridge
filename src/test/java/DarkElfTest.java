@@ -4,15 +4,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class DarkElfTest {
     @Test
-    void deveRetornaAumentoDePoderEAumnetoDePeso(){
-        IPower ipower = new DragonBane();
-        DarkElf darkelf = new DarkElf(100.0f,
-                100.0f,
-                100.0f,
-                100.0f,
-                100.0f);
+    void ClasseDarkElfComSkillDeMagia(){
+        IPower ipower = new PowerMagic();
+        DarkElf darkelf = new DarkElf(100,
+                100,
+                100);
         darkelf.setIpower(ipower);
-        darkelf.setCordOfForestElves(10);
-        assertEquals(120.0f, darkelf.powerCalculate(),0.2f);
-    }
+        assertEquals(120.0f, darkelf.powerCalculateMagic(),0.2f);
+
 }

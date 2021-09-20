@@ -1,21 +1,17 @@
 public class DarkElf extends Personagem{
-    private int cordOfForestElves;
-
-    public DarkElf(float health, float stamina, float magic, float weightPersonagem, float damagePersonagem) {
-        super(health, stamina, magic, weightPersonagem, damagePersonagem);
-    }
 
 
-    public void setCordOfForestElves(int cordOfForestElves) {
-        this.cordOfForestElves = cordOfForestElves;
+    public DarkElf(int health, int stamina, int magic) {
+        super(health, stamina, magic);
     }
-    public  float powerCalculate(){
-        return this.damagePersonagem + this.cordOfForestElves + (1 + this.ipower.increasePower());
+
+    public int powerCalculateMagic(){
+        return this.magic + (1 + this.ipower.increasePowerMagic());
     }
-    public  float drecreaseCalculate(){
-        return this.stamina;
+    public  int powerCalculateHealth(){
+        return this.health + (1 + this.ipower.increasePowerHealth());
     }
-    public  float weightCalculate(){
-        return this.weightPersonagem;
+    public int powerCalculateStamina(){
+        return this.stamina + (1 + this.ipower.increasePowerStamina());
     }
 }

@@ -1,17 +1,15 @@
 public abstract class Personagem {
     protected IPower ipower;
-    protected float health;
-    protected float stamina;
-    protected float magic;
-    protected float weightPersonagem;
-    protected float damagePersonagem;
+    protected int health;
+    protected int stamina;
+    protected int magic;
 
-    public Personagem(float health, float stamina, float magic, float weightPersonagem, float damagePersonagem) {
+
+    public Personagem(int health, int stamina, int magic) {
         this.health = health;
         this.stamina = stamina;
         this.magic = magic;
-        this.weightPersonagem = weightPersonagem;
-        this.damagePersonagem = damagePersonagem;
+
     }
 
     public void setIpower(IPower ipower) {
@@ -20,27 +18,20 @@ public abstract class Personagem {
 
 
 
-    public abstract float powerCalculate();
-    public abstract float drecreaseCalculate();
-    public abstract float weightCalculate();
+    public abstract int powerCalculateMagic();
+    public abstract int powerCalculateHealth();
+    public abstract int powerCalculateStamina();
 
-    public void setHealth(float health) {
+    public void setHealth(int health) {
         this.health = health;
     }
 
-    public void setStamina(float stamina) {
+    public void setStamina(int stamina) {
         this.stamina = stamina;
     }
 
-    public void setMagic(float magic) {
+    public void setMagic(int magic) {
         this.magic = magic;
     }
 
-    public void setWeightPersonagem(float weightPersonagem) {
-        this.weightPersonagem = weightPersonagem;
-    }
-
-    public void setDamagePersonagem(float damagePersonagem) {
-        this.damagePersonagem = damagePersonagem;
-    }
 }
