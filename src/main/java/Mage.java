@@ -1,4 +1,4 @@
-public class PowerMagic implements IPower{
+public class Mage implements IPower{
     public int increasePowerMagic(){
         return 120;
     }
