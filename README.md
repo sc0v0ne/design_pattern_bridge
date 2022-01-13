@@ -1,25 +1,23 @@
-<h1 align="center">Bridge</h1>
-<h3 align="center">Faculdade Metodista Granbery</h3>    
+
+# 🪶 Bridge
+
+
+🎓 College: [Faculdade Metodista Granbery](http://granbery.edu.br/)
+
+👨‍🏫 Teacher: [Marco Antônio - Github](https://github.com/marcoaparaujo) | [Linkedin](https://www.linkedin.com/in/marco-ant%C3%B4nio-ara%C3%BAjo/)
 
 
 
-<h2 align="center">👨‍🏫 Professor</h2>
-<div align="center" style="display: inline_block"><br>
-    <a href="https://github.com/marcoaparaujo"><img alt="Professor Victor" src="https://media-exp1.licdn.com/dms/image/C5603AQExY_Yk-oK1UQ/profile-displayphoto-shrink_200_200/0/1516889759530?e=1634774400&v=beta&t=_8pJ_paaoMrf9wMR2TiiXwWMOHnf0gfz6LvDK7TNfuU" width="115"></a>
-    </div>
+## 🧰 Tools
 
-
-
-<h2 align="center">🧪 FERRAMENTAS</h2>
-
-<div align="center" style="display: inline_block"><br>
-
+<div style="display: inline_block"><br>
   <img align="center" alt="3DD1-JAVA" height="50" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
-   <img align="center" alt="3DD1-GIT" height="50" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+  <img align="center" alt="3DD1-GIT" height="50" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
   <img align="center" alt="3DD1-GITHUB" height="50" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
   <img align="center" alt="3DD1-INTELLIJ" height="50" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg">
 </div>
-<h2> Instalação Frameworks</h2>
+
+## Framework
 
 JUnit 5
 ```POM
@@ -34,3 +32,10 @@ JUnit 5
 
     </dependencies>
 ```
+
+
+The code above you will add, inside the pom.xml file, depending on your IDEA, you will click on the code to run or reload. To download the framework. So you can run the tests.
+#### Example: 
+![example](https://user-images.githubusercontent.com/56802572/139537465-a8d02743-046c-4da6-8b74-00c7ed53b1d5.png)
+
+
